@@ -3,7 +3,6 @@
 //fin de funciones
 int main(int arg, char *argv[])
 {
-	clock_t begin = clock();//empieza a tomar tiempo
 	FILE *file;  //archivo
 	long long int bytes;
 	int bloques;
@@ -37,7 +36,5 @@ int main(int arg, char *argv[])
 	free(in_string);
 	fclose(file);
 	//Se muestra el tiempo utilizado por el codigo
-	clock_t end = clock();
-	printf("\ntiempo transcurrido = %lf segundos\n",(double)(end - begin) / CLOCKS_PER_SEC);
 	return 0;
 }
