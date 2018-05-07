@@ -35,6 +35,5 @@ int main(int arg, char *argv[])
 	//Se libera el espacio usado en memoria 
 	free(in_string);
 	fclose(file);
-	//Se muestra el tiempo utilizado por el codigo
 	return 0;
 }
