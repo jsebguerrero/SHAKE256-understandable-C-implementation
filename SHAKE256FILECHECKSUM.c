@@ -1,6 +1,5 @@
-#include "funciones.h"		//Archivo de cabecera que contiene las funciones usadas en el main
+#include "funciones.h"
 
-//fin de funciones
 int main(int arg, char *argv[])
 {
 	FILE *file;  //archivo
